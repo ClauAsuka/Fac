@@ -50,8 +50,8 @@ public class test {
 
     public static void factura(){
    
-
- 
+    	System.out.println("Almacenes la Meteo");
+    	System.out.println("");
         System.out.println("su factura es " + "\n" + "\n" +" nombre: "  + nom + "\n" + "direccion: " + direc + "\n" + "telefono: " + tel + "\n" + "idenficacion: " + id + "\n" + "producto: " + producto + "\n");
  }
     public static void calcularIva(){
