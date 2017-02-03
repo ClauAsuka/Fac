@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class test {
  static String direc,nom,tel;
-       static int cantidad,id, habitaciones;
+       static int cantidad,id;
        static double costo;
         static double iva, total;
         static double tot;
