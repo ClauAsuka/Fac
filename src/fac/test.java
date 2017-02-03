@@ -27,7 +27,7 @@ public class test {
             System.out.println("digite valores validos " );
             cantidad=sc.nextInt();
         }
-        System.out.println("digite cnombre del producto");
+        System.out.println("digite nombre del producto");
         producto=sc.next();
         System.out.println("digite costo unidad");
         costo=sc.nextInt();
@@ -44,7 +44,7 @@ public class test {
    
 
  
-    System.out.println("su factura es " + "\n" +" nombre "  + nom + "\n" + "direccion " + direc + "\n" + "telefono " + tel + "\n" + "idenficacion " + id + "\n" + "costo unidad "+ costo +"\n" );
+    System.out.println("su factura es " + "\n" + "\n" +" nombre: "  + nom + "\n" + "direccion: " + direc + "\n" + "telefono: " + tel + "\n" + "idenficacion: " + id + "\n" + "producto: " + producto + "\n"+ "costo unidad: "+ costo +"\n" );
  }
     public static void calcularIva(){
          total = costo*cantidad;
