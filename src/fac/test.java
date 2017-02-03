@@ -3,7 +3,11 @@ package fac;
 import java.util.Scanner;
 
 public class test {
+<<<<<<< HEAD
  static String direc,nom,tel, producto;
+=======
+ static String direc,nom,tel;
+>>>>>>> refs/remotes/origin/DP3
        static int cantidad,id;
        static double costo;
         static double iva, total;
