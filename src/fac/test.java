@@ -1,6 +1,7 @@
 package fac;
 
 import java.util.Scanner;
+//import java.util.Date;
 
 public class test {
 
@@ -11,6 +12,7 @@ public class test {
     static double tot;
     static String personas;
  
+  
     public static void main(String[] args) {
    
        Scanner sc= new Scanner (System.in);
@@ -47,13 +49,15 @@ public class test {
        factura();
        calcularIva();
     }
-
+    
+    
     public static void factura(){
-   
-
- 
+    	
+    	java.util.Date fechaActual = new java.util.Date();
+    	System.out.println(fechaActual);
         System.out.println("su factura es " + "\n" + "\n" +" nombre: "  + nom + "\n" + "direccion: " + direc + "\n" + "telefono: " + tel + "\n" + "idenficacion: " + id + "\n" + "producto: " + producto + "\n");
- }
+  }
+    
     public static void calcularIva(){
         total = costo*cantidad;
         iva=(total*19)/100;
@@ -61,4 +65,5 @@ public class test {
         System.out.println("costo unidad: "+ costo +"\n" + "Iva: " + iva + "\n" + "costo total: " + tot);
 
 	}
+
 }
