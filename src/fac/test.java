@@ -3,8 +3,8 @@ package fac;
 import java.util.Scanner;
 
 public class test {
- static String direc,nom,tel;
-       static int cantidad,id, habitaciones;
+ static String direc,nom,tel, producto;
+       static int cantidad,id;
        static double costo;
         static double iva, total;
         static double tot;
@@ -32,6 +32,8 @@ public class test {
             System.out.println("digite valores validos " );
             cantidad=sc.nextInt();
         }
+        System.out.println("digite nombre del producto");
+        producto=sc.next();
         System.out.println("digite costo unidad");
         costo=sc.nextInt();
         System.out.println("");
@@ -48,7 +50,7 @@ public class test {
    
 
  
-    System.out.println("su factura es: " + "\n" + "\n" +" nombre "  + nom + "\n" + "\n" + "direccion " + direc + "\n" + "\n" + "telefono " + tel + "\n" + "\n" + "idenficacion " + id + "\n" + "\n" + "costo unidad "+ costo +"\n");
+        System.out.println("su factura es " + "\n" + "\n" +" nombre: "  + nom + "\n" + "direccion: " + direc + "\n" + "telefono: " + tel + "\n" + "idenficacion: " + id + "\n" + "producto: " + producto + "\n"+ "costo unidad: "+ costo +"\n" );
  }
     public static void calcularIva(){
          total = costo*cantidad;
