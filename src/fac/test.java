@@ -3,8 +3,8 @@ package fac;
 import java.util.Scanner;
 
 public class test {
- static String direc,nom,tel;
-       static int cantidad,id, habitaciones;
+ static String direc,nom,tel, producto;
+       static int cantidad,id;
        static double costo;
         static double iva, total;
         static double tot;
@@ -27,6 +27,8 @@ public class test {
             System.out.println("digite valores validos " );
             cantidad=sc.nextInt();
         }
+        System.out.println("digite cnombre del producto");
+        producto=sc.next();
         System.out.println("digite costo unidad");
         costo=sc.nextInt();
      
