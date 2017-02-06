@@ -1,7 +1,6 @@
 package fac;
 
 import java.util.Scanner;
-//import java.util.Date;
 
 public class test {
 
@@ -40,12 +39,12 @@ public class test {
         System.out.println("");
         System.out.println("digite costo unidad");
         costo=sc.nextInt();
-        System.out.println("");
      
         	while(costo<1){
         		System.out.println("digite valores validos " );
         			costo=sc.nextInt();
         	}
+            System.out.println("");
        factura();
        calcularIva();
     }
@@ -59,7 +58,7 @@ public class test {
     	System.out.println("Almacenes la Meteo");
     	System.out.println("");
 
-        System.out.println("su factura es " + "\n" + "\n" +" nombre: "  + nom + "\n" + "direccion: " + direc + "\n" + "telefono: " + tel + "\n" + "idenficacion: " + id + "\n" + "producto: " + producto + "\n");
+        System.out.println("su factura es " + "\n" + "\n" + "nombre: "  + nom + "\n" + "direccion: " + direc + "\n" + "telefono: " + tel + "\n" + "idenficacion: " + id + "\n" + "producto: " + producto + "\n");
   }
     
     public static void calcularIva(){
