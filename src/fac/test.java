@@ -40,12 +40,13 @@ public class test {
         System.out.println("");
         System.out.println("digite costo unidad");
         costo=sc.nextInt();
+        System.out.println("");
      
         	while(costo<1){
         		System.out.println("digite valores validos " );
         			costo=sc.nextInt();
         	}
-<<<<<<< HEAD
+            System.out.println("");
 			try {
 				System.in.close();
 			} catch (IOException e) {
@@ -53,12 +54,7 @@ public class test {
 				
 			}
         	factura();
-=======
-            System.out.println("");
-       factura();
->>>>>>> refs/remotes/origin/Ve4
        calcularIva();
-       
     }
     
     
@@ -71,11 +67,7 @@ public class test {
     	System.out.println("Almacenes la Meteo");
     	System.out.println("");
 
-<<<<<<< HEAD
         System.out.println("su factura es " + "\n" + "\n" +"nombre:        "  + nom + "\n" + "direccion:     " + direc + "\n" + "telefono:      " + tel + "\n" + "idenficacion:  " + id + "\n" + "producto:      " + producto + "      " + "x" + (cantidad));
-=======
-        System.out.println("su factura es " + "\n" + "\n" + "nombre: "  + nom + "\n" + "direccion: " + direc + "\n" + "telefono: " + tel + "\n" + "idenficacion: " + id + "\n" + "producto: " + producto + "\n");
->>>>>>> refs/remotes/origin/Ve4
   }
     
     public static void calcularIva(){
