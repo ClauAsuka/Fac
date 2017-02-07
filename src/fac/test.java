@@ -63,20 +63,21 @@ public class test {
     	java.util.Date fechaActual = new java.util.Date();
     	System.out.println(fechaActual);
     	System.out.println("");    	
-   
-    	System.out.println("Almacenes la Meteo");
+    	System.out.println("");    	
+    	
+    	System.out.println("Almacenes La Meteo");
     	System.out.println("");
 
-        System.out.println("su factura es " + "\n" + "\n" +"nombre:        "  + nom + "\n" + "direccion:     " + direc + "\n" + "telefono:      " + tel + "\n" + "idenficacion:  " + id + "\n" + "producto:      " + producto + "      " + "x" + (cantidad));
+        System.out.println("Su factura es: " + "\n" + "\n" +"nombre:          "  + nom + "\n" + "direccion:       " + direc + "\n" + "telefono:        " + tel + "\n" + "idenficacion:    " + id + "\n");
   }
     
     public static void calcularIva(){
-        total = costo*cantidad;
+    	total = costo*cantidad;
         iva=(total*19)/100;
         tot=total+iva;
     	System.out.println("______________________________");
     	System.out.println("");
-        System.out.println("costo unidad:  "+ costo +"\n" + "Iva:           " + iva + "\n" + "costo total:   " + tot);
+        System.out.println("producto:        " + producto + "x    " + (cantidad) + "\n" + "costo unidad:    "+ costo + "\n" + "Costo total:     "+ total +"\n" + "iva:             " + iva + "\n" + "Total a pagar:   " + tot);
 
 	}
 
