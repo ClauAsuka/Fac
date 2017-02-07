@@ -79,11 +79,8 @@ public class test {
     	System.out.println("______________________________");
     	System.out.println("");
         System.out.println("producto:        " + producto + "x    " + (cantidad) + "\n" + "costo unidad:    "+ costo + "\n" + "Costo total:     "+ total +"\n" + "iva:             " + iva + "\n" + "Total a pagar:   " + tot);
-
-        System.out.println("costo unidad:  "+ costo +"\n" + "Iva:           " + iva);
-    	System.out.println("______________________________");
-    	System.out.println("costo total:   " + tot);
-        
+        System.out.println("______________________________");
+       
 	}
 
 }
