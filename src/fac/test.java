@@ -76,8 +76,10 @@ public class test {
         tot=total+iva;
     	System.out.println("______________________________");
     	System.out.println("");
-        System.out.println("costo unidad:  "+ costo +"\n" + "Iva:           " + iva + "\n" + "costo total:   " + tot);
-
+        System.out.println("costo unidad:  "+ costo +"\n" + "Iva:           " + iva);
+    	System.out.println("______________________________");
+    	System.out.println("costo total:   " + tot);
+        
 	}
 
 }
