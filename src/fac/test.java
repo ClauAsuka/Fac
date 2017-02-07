@@ -63,9 +63,10 @@ public class test {
     	java.util.Date fechaActual = new java.util.Date();
     	System.out.println(fechaActual);
     	System.out.println("");    	
-    	System.out.println("");    	
-    	
-    	System.out.println("Almacenes La Meteo");
+    	System.out.println("");    	    	
+    	System.out.println("   ------------------- ");
+    	System.out.println("  |Almacenes la Meteo |");
+    	System.out.println("   ------------------- ");
     	System.out.println("");
 
         System.out.println("Su factura es: " + "\n" + "\n" +"nombre:          "  + nom + "\n" + "direccion:       " + direc + "\n" + "telefono:        " + tel + "\n" + "idenficacion:    " + id + "\n");
@@ -79,6 +80,10 @@ public class test {
     	System.out.println("");
         System.out.println("producto:        " + producto + "x    " + (cantidad) + "\n" + "costo unidad:    "+ costo + "\n" + "Costo total:     "+ total +"\n" + "iva:             " + iva + "\n" + "Total a pagar:   " + tot);
 
+        System.out.println("costo unidad:  "+ costo +"\n" + "Iva:           " + iva);
+    	System.out.println("______________________________");
+    	System.out.println("costo total:   " + tot);
+        
 	}
 
 }
